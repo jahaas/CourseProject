@@ -10,6 +10,6 @@ Specific Topic: AllenNLP Chatbot
 
 Captain/Project Leader (and sole team member): Joel Haas, joelah2@illinois.edu
 
-<b> #### Proposal Task: Configure a chatbot using the Allen Institute for Artificial Intelligence open-source library AllenNLP </b>
+#### Proposal Task: Configure a chatbot using the Allen Institute for Artificial Intelligence open-source library AllenNLP
 
 
