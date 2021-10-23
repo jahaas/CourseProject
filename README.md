@@ -2,14 +2,14 @@
 
 Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
 
-##Group Name:        Team Coco
+## Group Name: Team Coco
 
-Theme:             Free Topics
+Theme: Free Topics
 
-Specific Topic: 	 AllenNLP Chatbot
+Specific Topic: AllenNLP Chatbot
 
 Captain/Project Leader (and sole team member): Joel Haas, joelah2@illinois.edu
 
-##Proposal Task:     Configure a chatbot using the Allen Institute for Artificial Intelligence open-source library AllenNLP
+## Proposal Task: Configure a chatbot using the Allen Institute for Artificial Intelligence open-source library AllenNLP
 
 
