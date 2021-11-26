@@ -1,6 +1,6 @@
 # CourseProject
 
-My final project consisted of configuring a (rudimentary) question and answer "chatbot" using the Google Deepmind NarrativeQA Reading Comprehension project files and native python libraries. 
+My final project consisted of configuring a (rudimentary) question and answer "chatbot" using the Google Deepmind NarrativeQA Reading Comprehension project files (https://github.com/deepmind/narrativeqa) and native python libraries. 
 
 
 ## Group Name: Team Coco
