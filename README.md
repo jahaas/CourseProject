@@ -37,5 +37,9 @@ Files created as part of the project:
 
 Note: I cut down the records in the qaps.csv from 8029 questions to 1040 questions due to: 1) the time to predict answers to all 8029 questions would have taken 40+ hours; and 2) I would not be able to manually QA that many predicted answers. 
 
+## Results
+Out of the 1040 predicted answers, I manually QA’d 267 predicted answers with each respective annotated “right” answer as provided by Google. 95% of the predicted answers were generated from the correct Wikipedia article. 41% of the predicted answers were correct answers. 
+
+Although having an accuracy of 41% in predicting the correct answer to each question, this approach is clearly not sophisticated enough for a RC system. Additionally, the correctly predicted answers returned the entire sentence that included the answer, rather than curating the answer and returning only the portion of the sentence that answered the question most directly.
 
 
