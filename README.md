@@ -20,9 +20,16 @@ I was not able to successfully install the AllenNLP python library.  I spent 3 h
 
 ## Files
 
-Files provided by the Google Deepmind NarrativeQA Reading Comprehension project
-* qaps.csv: contains the questions and the annotated "right" answers to the questions; schema is document_id, set, question, answer1, answer2, question_tokenized, answer1_tokenized, answer2_tokenized
-* summaries.csv: contains the summary articles from Wikipedia that are to be searched for the answer to the question being asked; schema is document_id, set, summary, summary_tokenized.
+Files provided by the Google Deepmind NarrativeQA Reading Comprehension project:
+* qaps.csv: contains the questions and the annotated "right" answers to the questions; schema is document_id, set, question, answer1, answer2, question_tokenized, answer1_tokenized, answer2_tokenized.
+* summaries.csv: contains the summary articles from Wikipedia that are to be searched for the answer to the question being asked; schema is document_id, set, summary, summary_tokenized (paragraphs of articles are separate rows in the CSV).
+
+Files created as part of the project:
+* summary_list.csv: Wrangled summaries.csv dataset so that one Wikipedia article was one row, rather than multiple rows; schema is document_id and entire wikipedia article (all sentences and paragraphs) 
+* updatedSummaryList.csv: Reformatted the summaries in summary_list.csv so that each sentence of each Wikipedia article starts with the document_id (rather than just the first sentence of each Article); schema is document_id and one sentence from summary_list
+* questions_list.csv: questions extracted and cleaned from qaps.csv; schema is document_id and question.
+* answers_list.csv: annotated "right" answers extracted and cleaned from qaps.csv; schema is annotated "right" answer1 and answer2.
+
 
 Note: I cut down the records i
 
