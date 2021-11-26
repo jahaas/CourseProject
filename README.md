@@ -1,6 +1,9 @@
 # CourseProject
 
-My final project consisted of configuring a (rudimentary) question and answer "chatbot" using the Google Deepmind NarrativeQA Reading Comprehension project files (https://github.com/deepmind/narrativeqa) and native python libraries. 
+My final project consisted of configuring a (rudimentary) question and answer "chatbot" using the Google Deepmind NarrativeQA Reading Comprehension project files (https://github.com/deepmind/narrativeqa) and native python libraries. Cornell University explained the challenge of the project this way, "Reading comprehension (RC)---in contrast to information retrieval---requires integrating information and reasoning about events, entities, and their relations across a full document ... These tasks are designed so that successfully answering their questions requires understanding the underlying narrative rather than relying on shallow pattern matching or salience. We show that although humans solve the tasks easily, standard RC models struggle on the tasks presented here." (https://arxiv.org/abs/1712.07040)
+
+My approach included TF-IDF and cosine similarity. Although having an accuracy of 41% in predicted the correct answer to each question, this approach is clearly not sophisticated enough for a RC system. 
+
 
 
 ## Group Name: Team Coco
