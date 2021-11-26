@@ -29,9 +29,10 @@ Files created as part of the project:
 * updatedSummaryList.csv: Reformatted the summaries in summary_list.csv so that each sentence of each Wikipedia article starts with the document_id (rather than just the first sentence of each Article); schema is document_id and one sentence from summary_list
 * questions_list.csv: questions extracted and cleaned from qaps.csv; schema is document_id and question.
 * answers_list.csv: annotated "right" answers extracted and cleaned from qaps.csv; schema is annotated "right" answer1 and answer2.
+* AlgorithmicAnswers_to_Questions.csv: predicted answers to each question being asked
+* AlgorithmicAnswers_to_Questions_QApredictedanswers.csv: manually compared the predicted chatbot answers to the annotated "right" answer1
 
-
-Note: I cut down the records i
+Note: I cut down the records in the qaps.csv from 8029 questions to 1040 questions due to: 1) the time to predict answers to all 8029 questions would have taken 40+ hours; and 2) I would not be able to manually QA that many predicted answers. 
 
 
 
